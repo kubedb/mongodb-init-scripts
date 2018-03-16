@@ -1,2 +1,2 @@
-db = db.getSiblingDB('mydb');
-db.movie.insert({"name":"batman"});
+db = db.getSiblingDB('kubedb');
+db.people.insert({"firstname": "kubernetes", "lastname": "database"});
